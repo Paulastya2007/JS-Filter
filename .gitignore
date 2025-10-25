@@ -1,0 +1,44 @@
+# Node modules (if you later add npm packages)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+out/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# VSCode settings
+.vscode/
+.history/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Coverage reports (if you add testing later)
+coverage/
+*.lcov
+
+# Lock files (optional to ignore)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
